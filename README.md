@@ -1,4 +1,5 @@
 # Linux Introduction Notes and Course 🐧
+## Free Course (in Portuguese) ~> https://youtube.com/playlist?list=PLPqoPgWuohm5fVg0n0COJFXHktVzqwDDF
 
 #### Filesystem Hierarchy Standard
 The Filesystem Hierarchy Standard (FHS) is a reference describing the conventions used for the layout of a UNIX system. It has been made popular by its use in Linux distributions, but it is used by other UNIX variants as well

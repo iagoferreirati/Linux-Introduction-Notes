@@ -39,7 +39,7 @@ There has been controversy over the meaning of the name itself. In early version
 ```
 /media
 ```
-- Mount points for removable media such as CD-ROMs (appeared in FHS-2.3 in 2004).
+- Mount points for removable media such as CD-ROMs.
 ```
 /mnt
 ```
@@ -47,7 +47,7 @@ There has been controversy over the meaning of the name itself. In early version
 ```
 /opt
 ```
-- Add-on application software packages.[7]
+- Add-on application software packages.
 ```
 /proc
 ```
@@ -117,10 +117,10 @@ There has been controversy over the meaning of the name itself. In early version
   - Will generate a tree representation of the file system starting from the current directory.
 
 ## File or Directory - Create, Copy and Remove Commands in Linux
-- cp -p 
-  - source destination Will copy the file from source to destination directory. -p stands for preservation. It preserves the original attributes of file while copying like file owner, timestamp, group, permissions etc.
-- cp -R 
-  - source_dir destination_dir Will copy source directory to specified destination recursively.
+- cp -p source destination 
+  - Will copy the file from source to destination directory. -p stands for preservation. It preserves the original attributes of file while copying like file owner, timestamp, group, permissions etc.
+- cp -R source_dir destination_dir 
+  - Will copy source directory to specified destination recursively.
 - mv file1 file2 
   - In Linux there is no rename command as such. Hence mv moves/renames the file1 to file2.
 - rm -i 
@@ -139,8 +139,10 @@ There has been controversy over the meaning of the name itself. In early version
   - Create a file filename, if it doesn’t exist, otherwise change the timestamp of the file to current time.
 
 ## File or Directory - Permissions and Groups Commands
-- chmod < specification > filename Change the file permissions. Specifications = u user, g group, o other, + add permission, - remove, r read, w write, x execute.
-- chmod -R < specification > dir-name Change the permissions of a directory recursively. To change the permission of a directory and everything within that directory, use this command.
+- chmod < specification > filename 
+  - Change the file permissions. Specifications = u user, g group, o other, + add permission, - remove, r read, w write, x execute.
+- chmod -R < specification > dir-name 
+  - Change the permissions of a directory recursively. To change the permission of a directory and everything within that directory, use this command.
 - chmod go=+r myfile 
   - Add read permission for the owner and the group.
 - chmod a +rwx myfile 
